@@ -1,7 +1,6 @@
 const React = require('react');
 const { BsInstagram, BsArrowLeftShort, BsArrowRightShort } = require('react-icons/bs');
 
-
 const { SubHeading } = require('../../components');
 const { images } = require('../../constants');
 require('./Gallery.css');

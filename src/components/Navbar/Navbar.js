@@ -1,7 +1,10 @@
 import React, { useState } from 'react';
+// Importez GiHamburgerMenu correctement depuis react-icons/gi
 import { GiHamburgerMenu } from 'react-icons/gi';
+// Importez MdOutlineRestaurantMenu correctement depuis react-icons/md
 import { MdOutlineRestaurantMenu } from 'react-icons/md';
 import './Navbar.css';
+
 
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
